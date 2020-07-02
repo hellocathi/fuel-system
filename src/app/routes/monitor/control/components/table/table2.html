@@ -1,0 +1,288 @@
+<style>
+    .bg {
+        /* border-top: 2px solid blue; */
+        /* background-color: gainsboro; */
+        height: 60px;
+        /* padding: 5px; */
+
+    }
+
+    .clearfix:after {
+        content: "";
+        display: block;
+        height: 0;
+        line-height: 0;
+        visibility: hidden;
+        clear: both;
+    }
+
+    .container {
+        position: relative;
+        margin: 0 35px 0 20px;
+        padding-top: 10px;
+        /* border: 1px solid black; */
+    }
+
+    .a0 {
+        width: 12%;
+        float: left;
+        font-weight: bold;
+        color: white;
+    }
+
+    .a1 {
+        width: 12%;
+        position: absolute;
+        left: 13%;
+    }
+
+    .a2 {
+        width: 12%;
+        position: absolute;
+        left: 26%;
+    }
+
+    .a3 {
+        width: 12%;
+        position: absolute;
+        left: 39%;
+    }
+
+    .a4 {
+        width: 12%;
+        position: absolute;
+        left: 52%;
+    }
+
+    .a5 {
+        width: 12%;
+        position: absolute;
+        left: 65%;
+    }
+
+    .a6 {
+        width: 12%;
+        position: absolute;
+        left: 78%;
+    }
+
+    .a7 {
+        width: 12%;
+        position: absolute;
+        left: 91%;
+    }
+
+    .button {
+        margin-top: -3px;
+        /* position: absolute; */
+        /* left: 91.5%; */
+        position: relative;
+        float: right;
+    }
+
+    .up {
+        border-left: 3.5px solid deepskyblue;
+        border-bottom: 2px solid deepskyblue;
+        border-right: 2px solid deepskyblue;
+        border-top: 2px solid deepskyblue;
+        height: 28px;
+        text-align: center;
+        color: deepskyblue;
+    }
+
+    .down {
+        /* background-color: white; */
+        border-left: 2px solid deepskyblue;
+        border-bottom: 2px solid deepskyblue;
+        border-right: 2px solid deepskyblue;
+        height: 28px;
+        padding: 0 3px 3px 3px;
+        text-align: center;
+        color: white;
+    }
+
+    .line {
+        border-bottom: 1px dashed whitesmoke;
+    }
+</style>
+
+<!-- <body style="padding-top:30px"> -->
+<div class="clearfix container">
+    <div class="bg a0">
+        <div>压力</div>
+        <div>单位：bar</div>
+    </div>
+    <div class="bg a1">
+        <div class="up">
+            粗滤器1前
+        </div>
+        <div class="down">0</div>
+    </div>
+
+    <div class="bg a2">
+        <div class="up">
+            粗滤器2前
+        </div>
+        <div class="down">0.5</div>
+    </div>
+    <div class="bg a3">
+        <div class="up">
+            供应泵1前
+        </div>
+        <div class="down">-0.2</div>
+    </div>
+    <div class="bg a4">
+        <div class="up">
+            供应泵2前
+        </div>
+        <div class="down">0</div>
+    </div>
+    <div class="bg a5">
+        <div class="up">
+            供应泵后
+        </div>
+        <div class="down">4.1</div>
+    </div>
+    <div class="bg a6">
+        <div class="up">
+            增压泵1前
+        </div>
+        <div class="down">4.2</div>
+    </div>
+    <div class="bg a7">
+        <div class="up">
+            增压泵2前
+        </div>
+        <div class="down">4.5</div>
+    </div>
+
+</div>
+<div class="clearfix container">
+    <div class="a0" style=" height: 70px;padding: 5px;">
+    </div>
+    <div class="bg a1">
+        <div class="up">
+            增压泵后
+        </div>
+        <div class="down">10.2</div>
+    </div>
+
+    <div class="bg a2">
+        <div class="up">
+            混油桶
+        </div>
+        <div class="down">3.5</div>
+    </div>
+    <div class="bg a3">
+        <div class="up">
+            燃油出口
+        </div>
+        <div class="down">9.4</div>
+    </div>
+    <div class="bg a4">
+        <div class="up">
+            自清滤器前
+        </div>
+        <div class="down">10</div>
+    </div>
+    <div class="bg a5">
+        <div class="up">
+            自清滤器后
+        </div>
+        <div class="down">10</div>
+    </div>
+    <div class="bg a6">
+        <div class="up">
+            热侧入口
+        </div>
+        <div class="down">7.2</div>
+    </div>
+</div>
+<div class="line"></div>
+<div class="clearfix container">
+    <div class="bg a0">
+        <div>温度</div>
+        <div>单位：℃</div>
+    </div>
+    <div class="bg a1">
+        <div class="up">
+            混油桶
+        </div>
+        <div class="down">120</div>
+    </div>
+
+    <div class="bg a2">
+        <div class="up">
+            加热器1前
+        </div>
+        <div class="down">115</div>
+    </div>
+    <div class="bg a3">
+        <div class="up">
+            加热器2前
+        </div>
+        <div class="down">126</div>
+    </div>
+    <div class="bg a4">
+        <div class="up">
+            加热器后
+        </div>
+        <div class="down">142</div>
+    </div>
+    <div class="bg a5">
+        <div class="up">
+            冷却器前
+        </div>
+        <div class="down">55</div>
+    </div>
+    <div class="bg a6">
+        <div class="up">
+            冷却器后
+        </div>
+        <div class="down">42</div>
+    </div>
+    <div class="bg a7">
+        <div class="up">
+            出口处
+        </div>
+        <div class="down">142</div>
+    </div>
+
+</div>
+<div class="clearfix container">
+    <div class="a0" style=" height: 70px;padding: 5px;">
+    </div>
+    <div class="bg a1">
+        <div class="up">
+            混油桶前
+        </div>
+        <div class="down">87</div>
+    </div>
+
+    <div class="bg a2">
+        <div class="up">
+            热侧入口
+        </div>
+        <div class="down">168</div>
+    </div>
+</div>
+<div class="line"></div>
+<div class="clearfix container">
+    <div class="bg a0">
+        <div>粘度</div>
+        <div>单位：cSt</div>
+    </div>
+    <div class="bg a1">
+        <div class="up">
+            加热器之后
+        </div>
+        <div class="down">12</div>
+    </div>
+
+</div>
+<div class="button">
+    <button nz-button nzType="link" (click)="goDetails()" nzGhost><i nz-icon nzType="setting"></i>详情</button>
+
+</div>
+
+<!-- </body> -->
